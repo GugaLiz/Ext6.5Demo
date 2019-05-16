@@ -1,0 +1,19 @@
+.x-grid-row-radio-checker {
+height: 14px;
+width: 14px;
+background-image: url('images/row-radio-sprite.gif');
+background-repeat: no-repeat;
+background-color: transparent;
+}
+
+.x-grid-row-radio-checker {
+background-position:2px 0px;
+}
+
+.x-grid-row-selected .x-grid-row-radio-checker, .x-grid-row-checked .x-grid-row-checker {
+    background-position:-23px 0px;
+}
+
+.x-grid-item-selected .x-grid-row-radio-checker {
+    background-position:-23px 0px;
+}
